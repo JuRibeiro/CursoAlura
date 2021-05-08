@@ -1,0 +1,49 @@
+JDK = JRE + ferramentas desenvolvimento
+
+ A responsabilidade da Java Virtual Machine é executar o Bytecode! Então qual é diferença entre JVM e JRE? Ambos executam o Bytecode, certo?
+
+A resposta é simples: O JRE (o nosso ambiente de execução) contém a JVM, mas também possui um monte de bibliotecas embutidas. Ou seja, para rodar uma aplicação Java não basta ter apenas a JVM, também é preciso ter as bibliotecas.
+
+JRE = JVM + bibliotecas
+
+É importante entender que você não pode baixar a JVM apenas. Você sempre baixa o JRE que tem a JVM e as bibliotecas em conjunto.
+
+
+-----------------------------------------
+
+1 - Durante a compilação acontece uma verificação sintática do código fonte.
+
+2 - Na compilação e execução podem aparecer erros.
+
+3 - A JVM lê e executa o Bytecode.
+
+4 - O compilador gera o Bytecode caso não tenha nenhum erro sintático no código fonte.
+
+-----------------------------------------------------
+
+
+Validaa o codigo (bytecod) escrito, pelo cmd :
+
+javac Programa.java
+
+
+Mostra o código:
+
+java Programa
+
+----------------------------------------------------------
+
+-como compilar um código fonte Java na linha de comando (javac)
+-como executar o Bytecode na linha de comando (java)
+-um programa Java deve estar escrito dentro de uma classe (class)
+-toda instrução Java deve ser finalizada com ;
+-para abrir e fechar um bloco usaremos as chaves {}
+-um programa Java possui uma entrada que é uma função (método) main
+-para imprimir algo no console usamos a instrução System.out.println()
+
+--------------------------------------------------------
+
+IDE que roda Java tbm além do Eclipse: inteliij
+
+--------------------------------------------------------
+
